@@ -1,0 +1,248 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #4d4d4d;
+    font-size: 14px;
+    line-height: 21px;
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #0275D8;
+    height: 62px;
+    width: 100%;
+    z-index: 1;
+    padding: 0 50px;
+    text-transform: uppercase;
+}
+
+.head ul, ul {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.head ul li, ul li {
+    position: relative;
+    padding: 0 15px;
+    font-weight: 300;
+}
+
+.head ul li a, ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    z-index: 2;
+    max-width: 100%;
+}
+
+.phone-main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 5px;
+    padding: 0 8px;
+    height: 62px;
+    align-items: center;
+    justify-content: center;
+    bottom: 8px;
+}
+
+.phone-main ul {
+    display: flex;
+}
+
+.cities {
+    border-bottom: 1px dashed white;
+    height: 37px;
+}
+
+.number a {
+    color: white;
+    text-decoration: none;
+}
+
+.blue-btn {
+    background-clip: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 9px 30px;
+    width: auto;
+    height: 39px;
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+}
+.blue-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.blue-btn:hover {
+    cursor: pointer;
+    background: white;
+}
+
+.blue-btn:hover a {
+    color: #0275D8;
+}
+
+.title {
+    position: relative;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 120px 0;
+    margin-bottom: 40px;
+    margin-top: 62px;
+    height: 300px;
+    background: url("images/title.jpg") no-repeat fixed top center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 24px;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: none;
+    width: 1170px;
+}
+
+h1  {
+    box-sizing: border-box;
+    font-size: 36px;
+    line-height: 1.1;
+    color: white;
+    text-shadow: 2px 1px 5px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cont-one {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1170px;
+    height: 415px;
+    margin: 80px auto 0;
+    max-width: none;
+}
+
+.cont-one-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    line-height: 24px;
+    min-height: 1px;
+}
+
+.cont-img {
+    box-sizing: border-box;
+    display: flex;
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cont-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cont-text h2 {
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 40px;
+    padding: 0 0 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 30.8px;
+}
+
+.cont-text p {
+    box-sizing: border-box;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+
+.cont-text p a {
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+    border: 1px solid #0275d8;
+    text-decoration: none;
+    color: #0275D8;
+    background-color: white;
+    border-radius: 0;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+.cont-text p a:hover {
+    color: white;
+    background-color: #0275D8;
+}
+
+.cont-two {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-align-last: center;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    background: rgb(240, 240, 240);
+}
+ .cont-two-text {
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
